@@ -1,0 +1,98 @@
+{
+  "source": "BDHS 2022 mothers in the training set (aggregate shares only, no individual rows)",
+  "n_mothers": 3397,
+  "inputs": {
+    "place": {
+      "mode": "home",
+      "shares": {
+        "home": 0.3527,
+        "private clinic": 0.322,
+        "private hospital": 0.1281,
+        "district hospital": 0.0497,
+        "upazila health complex": 0.0492,
+        "medical college hospital": 0.0297,
+        "mcwc": 0.0209,
+        "ngo static clinic": 0.0191,
+        "uh & family welfare center": 0.0115,
+        "private medical college hospital": 0.0041,
+        "community clinic": 0.0038,
+        "specialized govt hospital": 0.0035,
+        "other": 0.0029,
+        "other public sector": 0.0021,
+        "delivery hut": 0.0003,
+        "other private medical": 0.0003
+      }
+    },
+    "edu": {
+      "mode": "secondary",
+      "shares": {
+        "secondary": 0.7206,
+        "primary": 0.2281,
+        "no education": 0.0512
+      }
+    },
+    "division": {
+      "mode": "chattogram",
+      "shares": {
+        "chattogram": 0.1778,
+        "dhaka": 0.1445,
+        "mymensingh": 0.1219,
+        "khulna": 0.1166,
+        "sylhet": 0.1148,
+        "barishal": 0.1139,
+        "rangpur": 0.1116,
+        "rajshahi": 0.0989
+      }
+    },
+    "residence": {
+      "mode": "rural",
+      "shares": {
+        "rural": 0.6641,
+        "urban": 0.3359
+      }
+    },
+    "newspaper": {
+      "mode": "not at all",
+      "shares": {
+        "not at all": 0.9202,
+        "less than once a week": 0.048,
+        "at least once a week": 0.0318
+      }
+    },
+    "radio": {
+      "mode": "not at all",
+      "shares": {
+        "not at all": 0.9659,
+        "less than once a week": 0.0215,
+        "at least once a week": 0.0127
+      }
+    },
+    "tv": {
+      "mode": "at least once a week",
+      "shares": {
+        "at least once a week": 0.4684,
+        "not at all": 0.4548,
+        "less than once a week": 0.0768
+      }
+    },
+    "anc": {
+      "median": 3.0
+    },
+    "age": {
+      "median": 23.67
+    },
+    "poor": {
+      "mode": false,
+      "share_yes": 0.4059
+    },
+    "parity": {
+      "mode": false,
+      "share_yes": 0.0913
+    },
+    "distance": {
+      "mode": false,
+      "share_yes": 0.446
+    }
+  },
+  "mean_predicted_risk": 0.44550086847170756
+}
